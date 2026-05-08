@@ -1,0 +1,63 @@
+# ===== 敏感信息 =====
+credentials/
+openclaw.json
+agents/
+*.jsonl
+*.trajectory.jsonl
+
+# ===== 运行时缓存 =====
+workspace/.openclaw/
+workspace-qinglong/.openclaw/
+workspace-zhuque/.openclaw/
+workspace-baihu/.openclaw/
+workspace-TestCase/.openclaw/
+
+# ===== 依赖 =====
+extensions/
+npm/
+node_modules/
+
+# ===== 运行时产物 =====
+logs/
+media/
+browser/
+canvas/
+completions/
+delivery-queue/
+flows/
+identity/
+devices/
+memory/
+feishu*.log
+feishu*.txt
+feishuinstall.log
+feishuqrcode.txt
+exec-approvals.json
+bot-team.json
+openclaw.json.tmp
+openclaw.json.bak.*
+
+# ===== 运行时状态 =====
+openclaw-weixin/
+openclaw.json.bak
+openclaw.json.last-good
+qqbot/
+subagents/
+tasks/
+update-check.json
+plugins/
+
+# ===== 子 agent workspace 的 git 残留 =====
+workspace-qinglong/.git/
+workspace-zhuque/.git/
+workspace-baihu/.git/
+workspace-TestCase/.git/
+
+# 不属于本项目的 Agent workspace
+workspace-TestCase/
+
+# 其他项目插件（lanxin）
+plugin-skills/lanxin-*/
+
+# Lansenger 默认 Agent workspace
+workspace/default/
