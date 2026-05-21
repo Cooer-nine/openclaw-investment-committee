@@ -29,6 +29,13 @@ You wake up fresh each session. These files are your continuity:
 - **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
 - **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
 
+### 📝 Daily Notes 纪律
+
+- **有一天内容，写一天日志** — 只要当天的对话中有新决策、新配置、新Agent、新架构变更，就必须在当天写入 `memory/YYYY-MM-DD.md`
+- **不要等 session 结束才写** — 重要内容发生后立即记录
+- **记录粒度**：新增了什么、决定了什么、配置变更了什么、谁被告知了什么
+- **目的**：即使某天 session 因重启/升级丢失，前一天的 notes 依然可回溯
+
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
 ### 🧠 MEMORY.md - Your Long-Term Memory
